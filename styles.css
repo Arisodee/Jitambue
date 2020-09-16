@@ -1,0 +1,13 @@
+body{
+    font-family: sans-serif;
+    flex-direction: column;
+    text-align: justify;
+    text-size-adjust: 200px;
+    background-image: url(https://virtual-bg.com/wp-content/uploads/2020/06/professional-2-background-for-zoom-or-teams-unsplash.jpg);
+}
+assessments{
+    image-size: height=500px, width=300px;
+    border-image-repeat: round;
+    
+
+}
