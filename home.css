@@ -26,6 +26,7 @@
                     overflow: hidden;
                     background-image: url("https://i.pinimg.com/originals/c8/6a/07/c86a076b2d79cdd05f87c5044dfbc51d.jpg");
                     justify-content: flex-end;
+                    display: flex;
                 }
                 
                 .navbar a {
@@ -129,6 +130,10 @@
                     background-image: url("https://i.pinimg.com/originals/c8/6a/07/c86a076b2d79cdd05f87c5044dfbc51d.jpg")
                 }
                 
+                footer h1 {
+                    font-size: 14px;
+                }
+                
                 #picha {
                     font-size: 12px;
                     justify-content: space-between;
@@ -146,6 +151,8 @@
                 .pics {
                     display: flex;
                     justify-content: space-around;
+                    padding: 20px;
+                    margin-top: 100px;
                 }
                 
                 a {
@@ -171,25 +178,37 @@
                     font-size: 38px;
                 }
                 
-                .main {
-                    justify-content: flex-end;
-                }
-                
-                footer h1 {
-                    font-size: 14px;
-                }
-                
                 .join2 {
                     display: flex;
                     flex-direction: column;
                     margin-right: 300px;
                     align-items: flex-end;
+                    background-image: url("https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
                 }
                 
                 .log {
                     margin-right: 100px;
                 }
                 
-                .navbar {
+                #images {
                     display: flex;
+                    justify-content: space-between;
+                    border: 2px solid blue;
+                }
+                
+                .jit {
+                    text-align: center;
+                    background-image: url("https://media.istockphoto.com/photos/blue-abstract-background-or-texture-picture-id1138395421?k=6&m=1138395421&s=612x612&w=0&h=bJ1SRWujCgg3QWzkGPgaRiArNYohPl7-Wc4p_Fa_cyA=");
+                }
+                
+                .jit p {
+                    margin-left: 300px;
+                    margin-right: 300px;
+                    font-size: 30px;
+                    color: thistle;
+                }
+                
+                .jit h1 {
+                    text-transform: uppercase;
+                    color: wheat;
                 }
