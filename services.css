@@ -129,24 +129,46 @@ footer {
 footer h1 {
     font-size: 14px;
 }
-
 .onlinepfa{
     text-align: justify;
-  
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 10px;
+
 }
 .selfcaretraining{
+  margin-top: 20px;
+  font-size: 20px;
+  font-style: italic;
     text-align: justify;
+    float: right;
 
 }
-.referral{
-    text-align: justify;
-}
-#we_serve{
+.referral
+{
+  text-align: center;
+  margin-top: 600px;
+  font-size: 20px;
+  font-style: italic;
 
 }
-#firstaid{
+.firstaid{
+    float: right;
     margin-right: 20px;
+    height: 375px;
+    width: 600px;
 }
-#self_care{
-    margin-left: 20px;
+.self_care{
+  float: left;
+  margin-top: 9.5px;
+  height: 375px;
+  width: 600px;
 }
+.titles{
+  font-size: 24px;
+}/*
+.text1{
+  float:left;
+  font-size: 20px;
+  font-style: italic;
+}*/
