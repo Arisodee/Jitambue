@@ -1,4 +1,4 @@
-body {
+    body {
     background-image: url("https://cdn.hipwallpaper.com/i/45/98/pBwD9m.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,7 +7,7 @@ body {
 .ji {
     font-family: rye;
     font-size: 100px;
-    background-image: url("https://i.pinimg.com/originals/d4/43/33/d443331f98d9d762469790e530a70567.jpg");
+    /* background-image: url("https://i.pinimg.com/originals/d4/43/33/d443331f98d9d762469790e530a70567.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     text-decoration: none;
@@ -24,7 +24,7 @@ body {
 
 .navbar {
     overflow: hidden;
-    background-image: url("https://i.pinimg.com/originals/c8/6a/07/c86a076b2d79cdd05f87c5044dfbc51d.jpg");
+    background-color: #464064;
     justify-content: flex-end;
     display: flex;
 }
@@ -123,30 +123,24 @@ body {
 footer {
     display: flex;
     justify-content: space-between;
-    background-image: url("https://i.pinimg.com/originals/c8/6a/07/c86a076b2d79cdd05f87c5044dfbc51d.jpg")
-}
-
-footer h1 {
-    font-size: 14px;
-}
-
-.onlinepfa{
-    text-align: justify;
-  
-}
-.selfcaretraining{
-    text-align: justify;
-
-}
-.referral{
-    text-align: justify;
-}
-#we_serve{
-
-}
-#firstaid{
-    margin-right: 20px;
-}
-#self_care{
-    margin-left: 20px;
-}
+    /* background-image: url("https://i.pinimg.com/originals/c8/6a/07/c86a076b2d79cdd05f87c5044dfbc51d.jpg")
+} */
+    footer h1 {
+        font-size: 14px;
+    }
+    .onlinepfa {
+        text-align: justify;
+    }
+    .selfcaretraining {
+        text-align: justify;
+    }
+    .referral {
+        text-align: justify;
+    }
+    #we_serve {}
+    #firstaid {
+        margin-right: 20px;
+    }
+    #self_care {
+        margin-left: 20px;
+    }
