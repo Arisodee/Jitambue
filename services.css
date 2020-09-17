@@ -80,7 +80,7 @@ body {
 }
 
 .dropdown-content a:hover {
-    background-color: #339e66ff;
+    background-color: rgb(51, 110, 158);
 }
 
 .dropdown:hover .dropdown-content {
@@ -131,7 +131,7 @@ footer h1 {
 }
 .onlinepfa{
     text-align: justify;
-    font-style: italic;
+    font-style: normal;
     font-size: 20px;
     margin-left: 10px;
 
@@ -139,7 +139,7 @@ footer h1 {
 .selfcaretraining{
   margin-top: 20px;
   font-size: 20px;
-  font-style: italic;
+  font-style: normal;
     text-align: justify;
     float: right;
 
@@ -149,7 +149,7 @@ footer h1 {
   text-align: center;
   margin-top: 600px;
   font-size: 20px;
-  font-style: italic;
+  font-style: normal;
 
 }
 .firstaid{
