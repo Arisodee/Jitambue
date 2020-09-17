@@ -1,4 +1,4 @@
-    body {
+body {
     background-image: url("https://cdn.hipwallpaper.com/i/45/98/pBwD9m.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,14 +61,16 @@
     background-color: gray;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #97bc62ff;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    min-width: 160px;
-}
+
+/* .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #97bc62ff;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            min-width: 160px;
+        }
+         */
 
 .dropdown-content a {
     text-decoration: none;
@@ -77,10 +79,6 @@
     float: none;
     display: block;
     text-align: left;
-}
-
-.dropdown-content a:hover {
-    background-color: #339e66ff;
 }
 
 .dropdown:hover .dropdown-content {
@@ -123,24 +121,30 @@
 footer {
     display: flex;
     justify-content: space-between;
-    /* background-image: url("https://i.pinimg.com/originals/c8/6a/07/c86a076b2d79cdd05f87c5044dfbc51d.jpg")
-} */
-    footer h1 {
-        font-size: 14px;
-    }
-    .onlinepfa {
-        text-align: justify;
-    }
-    .selfcaretraining {
-        text-align: justify;
-    }
-    .referral {
-        text-align: justify;
-    }
-    #we_serve {}
-    #firstaid {
-        margin-right: 20px;
-    }
-    #self_care {
-        margin-left: 20px;
-    }
+}
+
+footer h1 {
+    font-size: 14px;
+}
+
+.onlinepfa {
+    text-align: justify;
+}
+
+.selfcaretraining {
+    text-align: justify;
+}
+
+.referral {
+    text-align: justify;
+}
+
+#we_serve {}
+
+#firstaid {
+    margin-right: 20px;
+}
+
+#self_care {
+    margin-left: 20px;
+}
